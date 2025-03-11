@@ -37,10 +37,6 @@ Aqui estão alguns projetos que estou desenvolvendo ou concluí:
 - **Descrição**: Processo de ETL que coleta cotações de Bitcoin em tempo real e armazena no banco de dados **PostgreSQL**.
 - **Tecnologias**: Python, PostgreSQL, Pydantic, Ferramentas ETL.
 
-## Como Contribuir
-
-Se você deseja contribuir com melhorias ou adicionar mais materiais ao repositório, sinta-se à vontade para abrir um **pull request**.
-
 ---
 
 **Bruno Silva**  
