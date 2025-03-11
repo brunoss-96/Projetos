@@ -1,0 +1,82 @@
+/* Geral */
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(
+    to right,
+    #4caf50,
+    #2196f3
+  ); /* Gradiente verde para azul */
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Caixa da calculadora */
+.calculator-box {
+  background: linear-gradient(to right, #d3d3d3, #a9a9a9); /* Gradiente cinza */
+  padding: 30px;
+  border-radius: 10px;
+  width: 320px;
+  margin: 50px auto; /* Centraliza a caixa */
+  text-align: center; /* Centraliza o texto */
+}
+
+/* Título dentro da caixa */
+.calculator-box h2 {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Input de números */
+.input-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+input[type="number"] {
+  padding: 8px;
+  font-size: 16px;
+  width: 150px;
+  text-align: center;
+}
+
+/* Área de operadores */
+.radio-group {
+  text-align: center;
+  margin-top: 20px;
+}
+
+label {
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+/* Botão de calcular */
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Área de resultado */
+#resultArea {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
+}

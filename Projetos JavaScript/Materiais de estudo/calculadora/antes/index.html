@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <main>
+      <h1></h1>
+      <div class="calculator-box">
+        <h2>Calculadora</h2>
+        <!-- Título dentro do gradiente cinza -->
+        <section>
+          <div class="input-group">
+            <input
+              id="num-one"
+              name="num-one"
+              type="number"
+              placeholder="Digite o número"
+            />
+            <input
+              id="num-two"
+              name="num-two"
+              type="number"
+              placeholder="Digite o número"
+            />
+          </div>
+          <div class="radio-group">
+            <label>
+              <input
+                checked
+                id="box1"
+                name="sign-area"
+                type="radio"
+                value="add"
+              />
+              <b>+</b>
+            </label>
+            <label>
+              <input id="box2" name="sign-area" type="radio" value="subtract" />
+              <b>-</b>
+            </label>
+            <label>
+              <input id="box3" name="sign-area" type="radio" value="multiply" />
+              <b>*</b>
+            </label>
+            <label>
+              <input id="box4" name="sign-area" type="radio" value="divide" />
+              <b>/</b>
+            </label>
+          </div>
+          <button onclick="outcome()" type="button">Calcular</button>
+          <h2 id="resultArea"></h2>
+        </section>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
